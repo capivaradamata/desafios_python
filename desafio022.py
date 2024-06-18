@@ -1,0 +1,12 @@
+nome =  input("Digite seu nome completo:")
+nomemaisculo = nome.upper()
+print(f"Seu nome em caixa alta é {nomemaisculo}")
+nomeminisculo = nome.lower()
+print(f"Seu nome em minusculo é {nomeminisculo}")
+nomedividido = nome.split()
+contagem = "".join(nomedividido)
+total = len(contagem)
+print(f"Seu nome possui {total} letras!")
+primeironome = nomedividido[0]
+qn1 = len(primeironome)
+print(f"seu primeiro nome tem {qn1} letras!")
