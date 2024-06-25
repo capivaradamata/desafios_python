@@ -6,7 +6,7 @@ while contagem != 10:
     contagem += 1
     resultado = resultado + razão
     print(f"{resultado}", end=";")
-print("Você gostaria de ver mais termos? S/N")
+print("")
 resposta = str(input("Você gostaria de ver mais termos? Digite S/N")).upper()
 quantidade = int(input("Quanto termos a mais?"))
 total = 0
