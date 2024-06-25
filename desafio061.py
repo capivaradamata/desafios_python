@@ -8,7 +8,7 @@ while contagem != 10:
     print(f"{resultado}", end=";")
 print("")
 resposta = str(input("Você gostaria de ver mais termos? Digite S/N")).upper()
-quantidade = int(input("Quanto termos a mais?"))
+quantidade = int(input("Quantos termos a mais?"))
 total = 0
 if resposta == "S":
     print("Esse são os proximos termos")
